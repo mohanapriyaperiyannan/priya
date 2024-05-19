@@ -1,0 +1,306 @@
+*
+{
+	margin: 0;
+}
+.container
+{
+	height: 730px;
+	width: 100%;
+	border: 1px solid none;
+	background: mediumpurple;
+	border-bottom-right-radius: 130px;
+}
+.container p 
+{
+	margin-left: 30px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	padding: 45px;
+}
+button
+{
+	border-radius: 30px;
+	border: 1px solid white;
+	height: 25px;
+	width: 160px;
+	margin-left: 185px;
+	margin-top: -65px;
+	font-size: 15px;
+	position: absolute;
+}
+ul 
+{
+	list-style-type: none;
+	font-size: 17px;
+	color: white;
+	display: flex;
+	gap: 25px;
+	font-family: sans-serif;
+	margin-left: 1000px;
+	margin-top: -65px;
+}
+.circle
+{
+	height: 200px;
+	width: 200px;
+	margin-top: 130px;
+	margin-left: -20px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.circle1
+{
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-top: 35px;
+	margin-left: 33px;
+	text-align: center;
+
+}
+.circle2
+{
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-top: -165px;
+	margin-left: 1060px;
+}
+.container1
+{
+	height: 550px;
+	width: 1200px;
+	border: 1px solid none;
+	margin-left: -1000px;
+	margin-top: 40px;
+	border-radius: 30px;
+
+}
+.container1 img
+{
+	height: 550px;
+	width: 1200px;
+	background-position: cover;
+	border-radius: 30px;
+	filter: blur(2px);
+ 	-webkit-filter: blur(2px);
+}
+.bt button
+{
+	border: 1px solid mediumpurple;
+	border-radius: 30px;
+	background-color: mediumpurple;
+	position: absolute;
+	color: white;
+	font-family: sans-serif;
+	margin-top: -505px;
+	margin-left: -500px;
+	height: 33px;
+	font-size: 12px;
+	width: 130px;
+}
+h1
+{
+	font-family: sans-serif;
+	color: white;
+	margin-top: -420px;
+	position: absolute;
+	margin-left: 95px;
+	font-size: 40px;
+}
+h2
+{
+	font-family: sans-serif;
+	color: white;
+	margin-top: -240px;
+	position: absolute;
+	margin-left: 95px;
+	font-size: 15px;
+}
+.bt1 button
+{
+	border: 1px solid white;
+	border-radius: 30px;
+	background-color: white;
+	position: absolute;
+	color: gray;
+	font-family: sans-serif;
+	margin-top: -150px;
+	margin-left: -970px;
+	height: 33px;
+	font-size: 12px;
+	width: 130px;
+}
+/*.circle3
+{
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 250px;
+	margin-top: -150px;
+	position: absolute;
+}*/
+/*.circle3 #i1
+{
+	color: gray;
+	font-size: 20px;
+	margin-top: 15px;
+}*/
+.circle #il
+{
+	height: 150px;
+	width: 100px;
+	color: white;
+}
+h3
+{
+	position: absolute;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-left: -680px;
+	margin-top: -140px;
+}
+@media (max-width: 452px)
+{
+	.container: .first-child
+	{
+		height: 600px;	
+	}
+	.container ul li 
+	{
+		display: flex;
+	}
+}
+.box
+{
+	height: 220px;
+	width: 235px;
+	margin-top: 100px;
+	margin-left: 75px;
+	border: 1px solid none;
+	background-color: #CF9FFF;
+	border-radius: 20px;
+}
+.head1
+{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.t1 p 
+{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.bb1 button
+{
+	height: 20px;
+	width: 90px;
+	border: 1px solid none;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin-top: 160px;
+	margin-left: 20px;
+}
+.circle3
+{
+	height: 100px;
+	width: 100px;
+	margin-left: 150px;
+	margin-top: -15px;
+	border-radius: 50%;
+	background-color: violet;
+	padding: 10px;
+}
+#logo
+{
+	position: absolute;
+	font-size: 45px;
+	height: 60px;
+	width: 60px;
+}
+.box1
+{
+	height: 220px;
+	width: 235px;
+	margin-top: -215px;
+	margin-left: 500px;
+	border: 1px solid none;
+	background-color: #CF9FFF;
+	border-radius: 20px;
+}
+.head2
+{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.t2 p 
+{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.bb2 button
+{
+	height: 20px;
+	width: 90px;
+	border: 1px solid none;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin-top: 160px;
+	margin-left: 20px;
+}
+.box2
+{
+	height: 220px;
+	width: 235px;
+	margin-top: -215px;
+	margin-left: 900px;
+	border: 1px solid none;
+	background-color: #CF9FFF;
+	border-radius: 20px;
+}
+.head3
+{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.t3 p 
+{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.bb3 button
+{
+	height: 20px;
+	width: 90px;
+	border: 1px solid none;
+	background-color: white;
+	border-radius: 30px;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 13px;
+	margin-top: 160px;
+	margin-left: 25px;
+}
